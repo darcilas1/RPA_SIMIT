@@ -8,7 +8,7 @@ import pandas as pd
 import re
 from datetime import datetime
 
-# Cargar archivo CSV
+# Cargar y leer archivo CSV
 csv_path = r"C:\Users\57318\Prueba_simit.csv"
 df = pd.read_csv(csv_path, sep=";", dtype={'CODIGO CLIENTE': str}, keep_default_na=False)
 
